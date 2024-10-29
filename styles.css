@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: black;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding:10px;
+}
+
+.outside-box{
+display: flex;
+justify-content: center;
+align-items: center;
+height:50vh;
+width: 50vh;
+background-color: gray;
+}
+
+.inside-box{
+    background-color: black;
+    height: 25vh;
+    width: 25vh;
+    padding: 25px;
+}
+
+@media (max-width: 300px){
+    body {
+        background-color: green;
+    }
+}
+
+@media (min-width:600px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media (min-width:300px) and (max-width:400px){
+    body {
+        background-color: pink;
+    }
+}
